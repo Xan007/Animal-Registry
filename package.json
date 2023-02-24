@@ -1,0 +1,37 @@
+{
+  "name": "registro-animal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xan007/Registro-Animal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xan007/Registro-Animal/issues"
+  },
+  "homepage": "https://github.com/Xan007/Registro-Animal#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jest": "^29.4.3",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.9.0",
+    "pino-http": "^8.3.3",
+    "pino-http-print": "^3.1.0",
+    "swagger-ui-express": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
